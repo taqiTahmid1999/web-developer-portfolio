@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Developer Portfolio</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            font-family: 'Open Sans', sans-serif;
+
+        }
+
+        .same-flex {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            /* border: 1px solid black; */
+        }
+
+        header {
+
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            border: 1px solid black;
+            min-height: 100vh;
+            background-color: #FFF8F3;
+            padding: 10px 20px;
+            width: 100%;
+            align-items: center;
+            padding-bottom: 0px;
+            padding-right: 0px;
+        }
+
+
+
+
+        #developer {
+            min-height: 100vh;
+            padding-block: 30px;
+            max-width: 150px;
+            padding-bottom: 50px;
+
+        }
+
+        #about-text {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            max-width: max-content;
+        }
+
+        #about-text>* {
+            margin-bottom: 20px;
+        }
+
+        ul>*,
+        nav {
+            margin-right: 40px;
+        }
+
+        nav {
+            margin-bottom: 40px;
+        }
+
+
+        #header-container2 {
+            width: 90vw;
+            height: 100vh;
+
+            padding-left: 40px;
+            padding-top: 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            background-image: url('./images/header_bg.png');
+            background-origin: border-box;
+            background-repeat: no-repeat;
+            background-position-x: right;
+            background-position-y: bottom;
+        }
+
+        #header-container2>#below-nav {
+            height: 100%;
+        }
+
+        #hardy-pic {
+            max-width: 584px;
+            max-height: 676px;
+        }
+
+        #below-nav {
+            justify-content: stretch;
+        }
+
+        #below-nav>* {
+            width: 100%;
+            padding-right: 0px;
+        }
+
+        #about-image {
+            display: flex;
+            flex-direction: column-reverse;
+            padding-right: 0px;
+            /* width: 80%; */
+        }
+
+        figure {
+            display: flex;
+            flex-direction: row-reverse;
+            padding-right: 0px;
+        }
+
+        a {
+            color: #474747;
+            font-size: 20px;
+            text-decoration: none;
+        }
+
+        li {
+            list-style: none;
+        }
+
+        ul {
+            align-items: center;
+        }
+
+        .full-orange {
+            background-color: #FD6E0A;
+            border-radius: 5px;
+            padding: 10px 15px;
+            font-size: 20px;
+            font-weight: bold;
+            color: #FFFFFF;
+            border: 0;
+        }
+
+        .half-orange {
+            color: #FD6E0A;
+            border: 1px solid #FD6E0A;
+            border-radius: 5px;
+            padding: 10px 15px;
+            font-size: 20px;
+            font-weight: bold;
+            background-color: #FFF8F3;
+            margin-left: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="same-flex">
+        <img id="developer" src="images/developer.png" alt="developer">
+        <div id="header-container2">
+            <nav class="same-flex">
+                <h3 style="font-weight: bolder; font-size: 45px;">Ma<span style="color: #FD6E0A;">r</span>y</h3>
+                <ul class="same-flex">
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <button class="full-orange">Hire Me</button>
+                </ul>
+            </nav>
+            <div id="below-nav" class="same-flex">
+                <div id="about-text">
+                    <p id="hi" style="font-weight: 600; font-size: 45px;">Hi, I am</p>
+                    <p id="name" style="font-size: 85px; font-weight: 700;">Mary Hardy</p>
+                    <p id="description" style="font-size: 18px; color:#757575">Shot what able cold new see hold.
+                        Friendly as an betrayed formerly <br> he.
+                        Morning
+                        because as to society behaved moments</p>
+                    <div id="button-div">
+                        <button id="download" class="full-orange">Download CV</button>
+                        <button id="contact" class="half-orange">Contact</button>
+                    </div>
+
+                </div>
+                <div id="about-image">
+                    <figure>
+                        <img id="hardy-pic" src="images/hardy.png" alt="Mary Hardy">
+                    </figure>
+                </div>
+            </div>
+        </div>
+
+
+    </header>
+    <main>
+        <hr>
+    </main>
+    <footer></footer>
+</body>
+
+</html>
