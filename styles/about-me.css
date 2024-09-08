@@ -1,0 +1,55 @@
+#about-me {
+    height: 100vh;
+}
+
+.center-div {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container-div {
+    width: 827px;
+    border: 1px solid black;
+    padding: 40px;
+    background-color: #FFFFFF;
+}
+
+#back-div {
+    width: 1140px;
+    height: 550px;
+    background-color: #FFF8F3;
+}
+
+#about-me-title {
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+#about-me-des {
+    padding-top: 40px;
+    color: #757575;
+    text-align: center;
+    line-height: 30px;
+    /* padding-inline: 40px; */
+}
+
+#info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-top: 20px;
+}
+
+.about-me-info {
+    text-align: center;
+    font-size: 20px;
+}
+
+.des {
+    font-weight: bold;
+}
