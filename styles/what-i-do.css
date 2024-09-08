@@ -1,0 +1,56 @@
+#what-i-do {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-inline: 12%;
+}
+
+#skill-div {
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+
+.skill {
+    height: 377px;
+    width: 267px;
+    margin: 10px;
+    box-shadow: 5px 5px 40px 21px rgba(214, 214, 214, 0.178);
+    padding: 25px;
+
+}
+
+.skill>figure {
+    margin-bottom: 30px;
+}
+
+#what-i-do h2 {
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 20px;
+}
+
+.skill>.title {
+    color: #181818;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.skill>.desc {
+    font-size: 16px;
+    line-height: 28px;
+}
+
+#what-i-do>p {
+    line-height: 30px;
+    text-align: center;
+    padding-inline: 15%;
+    margin-bottom: 30px;
+    color: #757575;
+}

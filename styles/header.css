@@ -118,23 +118,23 @@ nav {
     /* width: 80%; */
 }
 
-figure {
+header figure {
     display: flex;
     flex-direction: row-reverse;
     padding-right: 0px;
 }
 
-a {
+header a {
     color: #474747;
     font-size: 20px;
     text-decoration: none;
 }
 
-li {
+header li {
     list-style: none;
 }
 
-ul {
+header ul {
     align-items: center;
 }
 
