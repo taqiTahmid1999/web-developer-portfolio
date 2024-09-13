@@ -9,6 +9,64 @@
     <link rel="stylesheet" href="styles/about-me.css">
     <link rel="stylesheet" href="styles/what-i-do.css">
     <link rel="stylesheet" href="styles/summary.css">
+    <style>
+        footer {
+            height: 100vh;
+            padding: 12%;
+            background-color: #FFF8F3;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        #left-in-footer>*,
+        #right-in-footer>* {
+            margin-bottom: 15px;
+        }
+
+        #icon-div {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+
+        }
+
+        #icon-div>* {
+            margin-right: 16px;
+        }
+
+        footer form {
+            display: flex;
+            flex-direction: column;
+            margin-top: 24px;
+        }
+
+        footer form>* {
+            margin-bottom: 16px;
+        }
+
+        footer input,
+        footer textarea {
+            border: 0;
+            height: 64px;
+            color: #757575;
+            padding-left: 16px;
+            border-radius: 5px;
+            resize: none;
+            font-size: 16px;
+
+        }
+
+        footer textarea {
+            padding-top: 16px;
+            height: 180px;
+        }
+
+        footer button {
+            width: 150px;
+        }
+    </style>
 </head>
 
 <body>
@@ -200,7 +258,28 @@
 
         </article>
     </main>
-    <footer></footer>
+    <footer>
+        <div id="left-in-footer">
+            <p class="title">Lets Connect</p>
+            <p class="des">Please fill out the form on this section to contact with me or call between 9:00 A.M and 8.00
+                P.M ET,
+                Monday through Friday.</p>
+            <div id="icon-div">
+                <figure><img src="images/icons/facebook.png" alt="facebook icon"></figure>
+                <figure><img src="images/icons/twitter.png" alt="twitter icon"></figure>
+                <figure><img src="images/icons/insta.png" alt="Instagram icon"></figure>
+            </div>
+        </div>
+        <div id="right-in-footer">
+            <p class="title">Let's Message me</p>
+            <form>
+                <input type="text" placeholder="Your name">
+                <input type="text" placeholder="Your email">
+                <textarea name="" id="message" placeholder="Message" rows="8" cols="50"></textarea>
+                <button class="full-orange">Submit</button>
+            </form>
+        </div>
+    </footer>
 </body>
 
 </html>

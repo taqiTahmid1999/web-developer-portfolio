@@ -7,7 +7,8 @@
     padding-inline: 12%;
 }
 
-#summary h3 {
+#summary h3,
+footer .title {
     font-size: 35px;
     font-weight: bold;
     color: #181818;
@@ -28,15 +29,20 @@
 
 }
 
-#summary .des {
+#summary .des,
+footer .des {
     font-size: 16px;
     font-weight: 300;
     color: #757575;
     margin-bottom: 10px;
     padding-bottom: 10px;
-    border-bottom: 1px solid #e2e1e1;
     line-height: 28px;
     width: 80%;
+
+}
+
+#summer .des {
+    border-bottom: 1px solid #e2e1e1;
 
 }
 
